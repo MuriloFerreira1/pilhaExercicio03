@@ -14,7 +14,8 @@ public class Principal {
 		}
 		}while(val>10||val<0);
 		
-		FatController.fatorial(val);
+		int resultado = FatController.fatorial(val);
+		System.out.println(resultado);
 	}	
 	
 }
